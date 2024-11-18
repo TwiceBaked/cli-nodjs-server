@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello, Azure! This static react site and the Nodejs server this message is being pulled from were created using the Azure portal');
+  res.send('Hello, Azure! This static react site and the Nodejs server this message is being pulled from were created using the Azure CLI');
 });
 
 const PORT = process.env.PORT || 3000;
